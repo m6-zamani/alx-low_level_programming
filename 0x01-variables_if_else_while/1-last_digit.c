@@ -9,7 +9,7 @@
  * this program prints "Programmingis positive, zero, or negative
  * Return:0
  */
-int main(voi)
+int main(void)
 {
 	int n;
 	int l;
