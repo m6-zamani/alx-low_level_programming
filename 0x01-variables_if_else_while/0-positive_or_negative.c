@@ -6,14 +6,13 @@
  * main - print if the number is positive, zero, or negative
  *
  * Description: using the main function
- * this program prints "Programming is positive, zero, or negative"
- * Return 0
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
-
-/*The main function returns a void zero value*/
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/*your code goes there*/
