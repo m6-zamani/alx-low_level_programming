@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char c;
+	int c;
 
 	for (c = 'z'; c >= 'a'; c--)
 	{
