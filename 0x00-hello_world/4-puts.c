@@ -2,7 +2,7 @@
 
 /**
  * main - printing in C programming
- * 
+ *
  * Return: Always 0 (Successful)
  */
 int main(void)
