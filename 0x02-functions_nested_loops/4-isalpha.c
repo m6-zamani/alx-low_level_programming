@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int isalpha(void)
+int _isalpha(void)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
