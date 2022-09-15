@@ -7,7 +7,7 @@
  */
 int print_times_table(int n);
 
-int i;
+int i, k;
 
 int main(void)
 {
@@ -20,7 +20,9 @@ int print_times_table(int n)
 {
 	for (i = 0; i <= n; ++i) 
 	{
-		printf("%d * %d = %d \n", n, i, n * i); 
+		k = n * i;
+		printf("%d\n", k); 
 	}
+	return (0);
 }
 
