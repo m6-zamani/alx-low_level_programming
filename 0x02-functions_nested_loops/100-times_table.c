@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int n, i;
+	int n = 15, i;
 
-	for (i = 0; i <= 15; ++i)
+	for (i = 0; i <= n; ++i)
 	{
 		printf("%d * %d = %d \n", n, i, n * i);
 	}
