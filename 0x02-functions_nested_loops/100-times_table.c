@@ -9,12 +9,17 @@
 
 int main(void)
 {
-	int n = 15, i;
-
-	for (i = 0; i <= n; ++i)
-	{
-		printf("%d * %d = %d \n", n, i, n * i);
-	}
-
+	print_times_table(15);
+	
 	return (0);
 }
+
+void print_times_table(int n)
+{
+	int i;
+	for (i = 0; i <= n; ++i) 
+	{
+		printf("%d * %d = %d \n", n, i, n * i); 
+	}
+}
+
