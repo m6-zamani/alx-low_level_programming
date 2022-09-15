@@ -5,6 +5,9 @@
  *
  * Return: Always 0
  */
+int print_times_table(int n);
+
+int i;
 
 int main(void)
 {
@@ -13,9 +16,8 @@ int main(void)
 	return (0);
 }
 
-void print_times_table(int n)
+int print_times_table(int n)
 {
-	int i;
 	for (i = 0; i <= n; ++i) 
 	{
 		printf("%d * %d = %d \n", n, i, n * i); 
