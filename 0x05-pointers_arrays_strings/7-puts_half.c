@@ -3,7 +3,7 @@
 
 /**
  * puts_half -> puts half
- *
+ * str is a parameter or member
  */
 void puts_half(char *str)
 {
