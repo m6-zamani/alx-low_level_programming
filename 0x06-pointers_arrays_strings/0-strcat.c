@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * strcat - concatenates the string pointed to be @src, including the terminal null byte, too the end of the string pointed 
- * @dest: 
- * @src:
+ * strcat - concatenates the string pointed to be @src, including the terminal null byte, too the end of the string pointed to by @dest
+ * @dest: A pointer to the string to be concatenated upon
+ * @src: The source string to be appended to @dest
  *
  *Return: & pointer to the destintion string @dest
  */
