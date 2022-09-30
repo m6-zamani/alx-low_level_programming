@@ -9,7 +9,7 @@ int _sqrt_recursion(int n);
  * @root:
  * Return: if the number has a natural
  */
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 	if ((root * root) == num)
 	{
