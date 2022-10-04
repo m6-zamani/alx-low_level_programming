@@ -66,4 +66,3 @@ int _strlen(char *s)
 		_strcpy(dst, str);
 		return (dst);
 	}
-}
