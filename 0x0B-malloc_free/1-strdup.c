@@ -19,9 +19,9 @@ int _strlen(char *s)
 }
 
 	/**
-	 * _strcpy - function returns a pointer to a new string which is a duplicate
+	 * _strcpy - function returns a pointer to new string which is duplicate
 	 *
-	 * Description: 'function returns a pointer to a new string which is a duplicate'
+	 * Description: 'function returns a pointer to new string which is duplicate'
 	 * @src: array of elements
 	 * @dest: dest array
 	 * Return: dest
