@@ -26,7 +26,7 @@ int _strlen(char *s)
 	 * Return: dest
 	 */
 
-	char *_strcpy(char *dest, char *src)
+	char *_strcpy(char *dest, char *src) /*_strcpy - copy arrays*/
 	{
 		int i = 0;
 
@@ -46,7 +46,7 @@ int _strlen(char *s)
 	 * Return: pointer
 	 */
 
-	char *_strdup(char *str)
+	char *_strdup(char *str) /*_strdup - string to duplicate*/
 	{
 		char *dst;
 		unsigned int size;
@@ -58,7 +58,7 @@ int _strlen(char *s)
 
 		size = _strlen(str) + 1;
 
-		dst = (char *) malloc(size *sizeof(char));
+		dst = (char *) malloc(size * sizeof(char));
 
 		if (dst == 0)
 		{
