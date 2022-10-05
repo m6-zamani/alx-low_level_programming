@@ -5,7 +5,6 @@
  * @s: array of elements
  * Return: 1
  */
-
 int _strlen(char *s)
 {
 	unsigned int i;
@@ -25,7 +24,6 @@ int _strlen(char *s)
 	 * @dest: dest array
 	 * Return: dest
 	 */
-
 	char *_strcpy(char *dest, char *src) /*_strcpy - copy arrays*/
 	{
 		int i = 0;
@@ -45,7 +43,6 @@ int _strlen(char *s)
 	 * @str: array of elements
 	 * Return: pointer
 	 */
-
 	char *_strdup(char *str) /*_strdup - string to duplicate*/
 	{
 		char *dst;
