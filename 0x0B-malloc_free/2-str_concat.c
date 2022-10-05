@@ -10,7 +10,7 @@ int _strlen(char *s)
 	unsigned int i;
 
 	i = 0;
-	while(s[i] != '\0') /*Count character of string*/
+	while (s[i] != '\0') /*Count character of string*/
 	{
 		i++;
 	}
@@ -48,7 +48,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	/*concatenate arrays*/
-	for (i = 0; *(s1 = i) != '\0'; i++)
+	for (i = 0; *(s1 + i) != '\0'; i++)
 		*(dst + i) = *(s1 + i);
 
 	for (j = 0; *(s2 + j) != '\0'; j++)
