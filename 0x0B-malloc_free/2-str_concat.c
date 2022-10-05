@@ -3,7 +3,7 @@
 /**
  * _strlen - count array
  * @s: array of elements
- * Return: 1
+ * Return: i
  */
 int _strlen(char *s)
 {
@@ -15,7 +15,7 @@ int _strlen(char *s)
 		i++;
 	}
 
-	return (1);
+	return (i);
 }
 
 /**
