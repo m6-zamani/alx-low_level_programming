@@ -19,7 +19,7 @@ int _strlen(char *s)
 }
 
 	/**
-	 * _strcpy - function returns a pointer to string duplicate
+	 * *_strcpy - function returns a pointer to duplicate
 	 *
 	 * Description: 'function returns a pointer duplicate'
 	 *
@@ -27,7 +27,7 @@ int _strlen(char *s)
 	 * @dest: dest array
 	 * Return: dest
 	 */
-	char *_strcpy(char *dest, char *src) /*_strcpy - copy arrays*/
+	char *_strcpy(char *dest, char *src)
 	{
 		int i = 0;
 
@@ -43,10 +43,11 @@ int _strlen(char *s)
 
 	/**
 	 * _strdup - array for prints a string
+	 *
 	 * @str: array of elements
 	 * Return: pointer
 	 */
-	char *_strdup(char *str) /*_strdup - string to duplicate*/
+	char *_strdup(char *str)
 	{
 		char *dst;
 		unsigned int size;
